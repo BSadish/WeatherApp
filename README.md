@@ -1,12 +1,83 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather application built using **React**, **Vite**, **CSS**, and the **OpenWeather API**. Users can search for any city to view the current weather conditions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Search weather by city name
+- Display temperature
+- Show weather condition
+- Display humidity and wind speed
+- Responsive user interface
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- React
+- Vite
+- CSS
+- OpenWeather API
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/WeatherApp.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Add your API key
+
+Create a `.env` file and add:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key
+```
+
+### Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Project Structure
+
+- `src/` – React components and application logic
+- `public/` – Static assets
+- `.env` – API key
+- `package.json` – Project dependencies
+
+---
+
+## 📚 What I Learned
+
+- React fundamentals
+- API integration using Fetch
+- Environment variables
+- State management
+- Responsive UI design
+
+---
+
+## 👨‍💻 Author
+
+**Sadish Panta**
+
+---
+
+## ⭐ Support
+
+If you like this project, feel free to give it a **⭐ Star** on GitHub.
